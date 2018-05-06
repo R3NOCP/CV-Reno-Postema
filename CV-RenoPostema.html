@@ -1,0 +1,364 @@
+<style>
+
+h1.title {
+text-align: left;
+margin-left: 170px;
+font-family: "Lato", sans-serif;
+font-size: 35px
+}
+
+h2 {
+margin-left: 170px;
+font-family: "Lato", sans-serif;
+font-size: 25px;
+}
+
+h3 {
+    margin-left: 170px;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+}
+
+p {
+    margin-left: 170px;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #fe9500;
+}
+	
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+
+.column1 {
+	flex: 50%;
+    height: 250px; 
+	margin-left: 170px;
+	background-color: #fcfcfc
+	width: 400px;
+}
+
+.column2 {
+	flex: 50%;
+    height: 250px; 
+	margin-right: 0px;
+	background-color: #fcfcfc
+	width: 400px;
+}
+
+.column3 {
+	flex: 50%;
+    height: 250px; 
+	margin-left: 170px;
+	background-color: #ffffff;
+	width: 400px;
+}
+
+.column4 {
+	flex: 50%;
+    height: 250px; 
+	margin-right: 20px;
+	background-color: #ccc
+	width: 400px;
+}
+
+.column5 {
+	flex: 50%;
+    height: 250px; 
+	margin-right: 30px;
+	background-color: #ccc
+	width: 400px;
+}
+
+.column6 {
+	flex: 50%;
+    height: 250px; 
+	margin-left: 170px;
+	background-color: #fcfcfc
+	width: 400px;
+}
+
+.column7 {
+	flex: 50%;
+    height: 250px; 
+	margin-right: 0px;
+	background-color: #fcfcfc
+	width: 400px;
+	
+}
+.footer {
+  position: static;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+.column1:hover{
+	transform: scale(1.01);
+	z-index: 2;
+	background-color: #f1f1f1;
+}
+
+.column2:hover{
+	transform: scale(1.01);
+	z-index: 2;
+	background-color: #f1f1f1;
+}
+
+.column3:hover{
+	transform: scale(1.01);
+	z-index: 2;
+	background-color: #f4f4f4;
+}
+
+.column4:hover{
+	transform: scale(1.01);
+	z-index: 2;
+	background-color: #f1f1f1;
+}
+
+.column5:hover{
+	transform: scale(1.01);
+	z-index: 2;
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png");
+	background-size: 300px 250px;
+}
+
+.column6:hover{
+	transform: scale(1.01);
+	z-index: 2;
+	background-color: #f1f1f1;
+	background-image: url("https://www.mastenenvlaggen.nl/wp-content/uploads/2016/02/nederlandse_vlag.jpg");
+	background-size: 300px 250px;
+}
+
+.column7:hover{
+	transform: scale(1.01);
+	z-index: 2;
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png");
+	background-size: 300px 250px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	max-width: 450px;
+	margin-left: 170px;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+	margin-left: 170px;
+}
+
+hr { 
+    display: block;
+    margin-top: 10em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.btn1 {
+  border: 2px solid black;
+  background-color: black;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn1 {
+  border-color: black;
+  color: #ffffff;
+}
+
+.btn1:hover {
+  background: #ff9800;
+  color: black;
+}
+</style>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<HTML>
+   <HEAD>
+      <TITLE>Mijn CV</TITLE>
+   </HEAD>
+   <BODY>
+   <div id="personalia">
+      <h1 class="title">Curriculum Vitae</h1>
+	  <h3><strong>Reno Cristian Postema</strong> <img src="https://image.ibb.co/kgRt67/download.jpg" alt="Smiley face" align="left"></h3></div>
+	  
+<div class="sidenav">
+  <a href="#personalia">Personalia</a>
+  <a href="#profiel">Profiel</a>
+  <a href="#werkervaring">Werkervaring</a>
+  <a href="#opleidingen">Opleidingen</a>
+  <a href="#talen">Talen</a>
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2>Personalia</h2></div>
+<table style="width:100%">
+  <tr>
+    <th>Naam</th>
+    <td>Reno Postema</td>
+  </tr>
+  <tr>
+    <th>Geboortedatum:</th>
+    <td>25-10-1990</td>
+  </tr>
+  <tr>
+    <th>Adres</th>
+    <td>Boerhoorndreef 102, 9403KE, Assen</td>
+  </tr>
+  <tr>
+    <th>Telefoonnummer</th>
+    <td>0652746011</td>
+  </tr>
+  <tr>
+    <th>E-mailadres</th>
+    <td>reno@logxstar.com</td>
+  </tr>
+  <tr>
+    <th>Nationaliteit</th>
+    <td>Nederlands</td>
+  </tr>
+  <tr>
+    <th>Rijbewijs</th>
+    <td>B</td>
+</table>
+</div>
+<hr>     
+<div id="profiel">
+  <h2>Profiel</h2>
+  <p>Ik zou mij zelf omschrijven als enthousiast, nauwkeurig en zelfstandig. In mijn rol als projectmanager besef ik dat ik ook erg sterk ben in communicatie met klanten zoals het maken van afspraken, integraties etc. Ik hou van humor en ben erg communicatief en ga voor mijn team door het vuur, wat me dan weer een goede teamplayer maakt. </p>
+</div> 
+<hr>
+<div id="werkervaring">
+<h2>Werkervaring</h2>
+<br>
+<br>
+<div class="row">
+  <div class="column1">
+    <h2>LOGXSTAR</h2>
+	<ul>
+	<li><strong>Periode:</strong> 2015 tot heden</li>
+	<li><strong>Functie:</strong> Projectmanager</li>
+	<li><strong>Taken:</strong> Ontwikkelingen, e-commerce, transport</li>
+	<li><strong>Omschrijving:</strong> Verantwoordelijk voor nieuwe ontwikkelingen in ons verzendsysteem en het onderhouden van onze werkprocessen.</li>
+  <br>
+  <button class="btn1" onclick="alert('Wil je meer over mij weten? Neem gerust contact met mij op! Mijn telefoonnummer is :0652746011 of stuur een e-mail naar reno@logxstar.com')">Meer informatie?</button>
+  </div>
+<div class="column2">
+    <h2>Thom Mulder</h2>
+	<ul>
+	<li><strong>Periode:</strong> 2012 tot 2014</li>
+	<li><strong>Functie:</strong> Logistiek medewerker</li>
+	<li><strong>Taken:</strong> Logistiek, transport, warehouse</li>
+	<li><strong>Omschrijving:</strong> Verantwoordelijk voor de inbound, outbound en het bijhouden van voorraden in het WMS systeem</li>
+  <br>
+  <button class="btn1" onclick="alert('Wil je meer over mij weten? Neem gerust contact met mij op! Mijn telefoonnummer is :0652746011 of stuur een e-mail naar reno@logxstar.com')">Meer informatie?</button>
+  </div>
+  </div>
+  <hr>
+<div id="opleidingen">
+<h2>Opleidingen</h2>
+<br>
+<br>
+<div class="row">
+  <div class="column3">
+    <h2>MBO 4 - Int. Groothandel</h2>
+	<ul>
+	<li><strong>Periode:</strong> 2006 tot 2008</li>
+	<li><strong>Opleiding:</strong> MBO-4</li>
+	<li><strong>Richting:</strong> Internationale Groothandel</li>
+	<li><strong>Diploma:</strong> Geen diploma behaald</li>
+  <br>
+  </div>
+<div class="column4">
+    <h2>VMBO- Handel & Administratie</h2>
+	<ul>
+	<li><strong>Periode:</strong> 2000 tot 2006</li>
+	<li><strong>Opleiding:</strong> VMBO 3</li>
+	<li><strong>Richting</strong> Handel & Administratie</li>
+	<li><strong>Diploma</strong> Diploma behaald</li>
+  <br>
+  </div>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <div id="talen">
+<h2>Talenkennis</h2>
+<div class="row">
+  <div class="column6" style="background-color:#aaa;"> 
+ <h3 class="talen">Nederlands</h3>
+  </div>
+  <div class="column7" style="background-color:#bbb;">
+   <h3 class="talen">Engels</h3>
+  </div>
+  <div class="column5" style="background-color:#ccc;">
+   <h3 class="talen">Duits</h3>
+  
+  </div>
+</div>
+   </BODY>
+<footer>
+   <div class="footer">
+  <p>Curriculum Vitae - Reno Postema 2018</p>
+</div>
+</footer>
+</HTML
+
+
+
+
